@@ -3,9 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- page title in browser tab -->
     <title>Secure The Vault</title>
   </head>
   <body>
-    <script src="index.js"></script>
+    <!-- inline page title -->
+    <h1>Secure The Vault</h1>
+
+    <h2>
+      <!-- introductory message -->
+      You have received this message because you have been chosen to open an
+      important vault.
+    </h2>
+
+    <!-- <main>
+      <div>Combination ONE</div>
+      <div>Combination TWO</div>
+      <div>Combination THREE</div>
+    </main> -->
+
+    <!--
+    PSEUDO CODE
+    1. create variables for the 3 combination numbers.
+    2. use an arithmetic operator to generate a number for each variable
+    3. create 3 html tags, one for each number in combination
+    4. use javascript to assign these values to corresponding html tags.
+     -->
+    <script>
+      // create constant variables, and calculate values using operators
+      const C1 = 5 + 5;
+      const C2 = 80 / 2;
+      const C3 = 13 * 3;
+
+      // create an alert, deliver a formatted message to end user
+      alert(`Here is the combination: ${C1}-${C2}-${C3}`);
+    </script>
   </body>
 </html>
